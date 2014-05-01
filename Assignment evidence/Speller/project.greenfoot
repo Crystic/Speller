@@ -1,0 +1,15 @@
+#Greenfoot properties
+#Thu May 01 11:33:39 BST 2014
+class.GameWorld.image=crumpled-paper.jpg
+class.Menu.superclass=greenfoot.World
+mainWindow.width=713
+class.Menu.image=crumpled-paper.jpg
+class.GameWorld.superclass=greenfoot.World
+package.numDependencies=0
+version=2.5.0
+project.charset=UTF-8
+world.lastInstantiated=Menu
+mainWindow.y=40
+package.numTargets=0
+mainWindow.x=40
+mainWindow.height=357
