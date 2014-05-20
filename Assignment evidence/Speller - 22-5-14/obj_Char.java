@@ -15,29 +15,24 @@ public class obj_Char extends Actor
     public void act() 
     {  
         movePlayerHoriz();
-        if(getX() < 121)
-        {
-            setLocation(135, getY());
-        }
-         
-        if(getX() > 479)
-        {
-            setLocation(465, getY());
-        }
     }    
         
     public void movePlayerHoriz()
-    {        
-        if(getX() > 121 && getX() < 479)
+    {
+        int playerSpeed = 3;
+        if(getX() <= 475)
         {
             if(Greenfoot.isKeyDown("D"))
             {
-                setLocation(getX()+3, getY());
+                move(playerSpeed);
             }
-    
+        }
+        
+        if(getX() >= 125)
+        {
             if(Greenfoot.isKeyDown("A"))
             {
-                setLocation(getX()-3, getY());
+                move(-playerSpeed);
             }
         }
     }

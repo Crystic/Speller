@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 import java.util.Date;
 
 public class GameWorld extends World
@@ -10,11 +10,11 @@ public class GameWorld extends World
         long currTime = System.currentTimeMillis();
         if(currTime >= lastAdded + 2000)
         {
-            int x = Greenfoot.getRandomNumber(450);          
+            int randX = Greenfoot.getRandomNumber(450);          
                         
-            if( x >= 150 && x <= 450)
+            if( randX >= 150 && randX <= 450)
             {
-                addObject(new obj_letterBox("C"), x, 800);
+                addObject(new obj_letterBox("C"), randX, 800);
             }
             lastAdded = currTime;
         }
@@ -23,7 +23,6 @@ public class GameWorld extends World
     
     public GameWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 800, 1);
         prepare();
     }
