@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=
+comment1.target=GameWorld()
+comment2.params=
+comment2.target=void\ prepare()
+comment3.params=
+comment3.target=java.lang.String\ wordHandler()
+comment4.params=
+comment4.target=int\ moveToNextLetter()
+comment5.params=
+comment5.target=int\ getWordNum()
+comment6.params=
+comment6.target=void\ addToCollCount()
+comment7.params=
+comment7.target=int\ getCollisionCount()
+numComments=8
